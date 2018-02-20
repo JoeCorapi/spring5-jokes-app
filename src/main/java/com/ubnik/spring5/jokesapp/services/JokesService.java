@@ -1,8 +1,8 @@
 package com.ubnik.spring5.jokesapp.services;
 
-import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Service;
 
-@Repository
+@Service
 public interface JokesService {
 
     String getJoke();
